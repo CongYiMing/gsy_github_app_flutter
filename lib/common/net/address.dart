@@ -1,5 +1,6 @@
 import 'package:gsy_github_app_flutter/common/config/config.dart';
-import 'package:gsy_github_app_flutter/common/config/ignoreConfig.dart';
+
+import '../ignoreConfig.dart';
 
 ///地址数据
 class Address {

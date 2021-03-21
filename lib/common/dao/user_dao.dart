@@ -7,7 +7,6 @@ import 'package:gsy_github_app_flutter/db/provider/user/user_follower_db_provide
 import 'package:gsy_github_app_flutter/db/provider/user/userinfo_db_provider.dart';
 import 'package:gsy_github_app_flutter/db/provider/user/user_orgs_db_provider.dart';
 import 'package:gsy_github_app_flutter/common/config/config.dart';
-import 'package:gsy_github_app_flutter/common/config/ignoreConfig.dart';
 import 'package:gsy_github_app_flutter/common/dao/dao_result.dart';
 import 'package:gsy_github_app_flutter/common/local/local_storage.dart';
 import 'package:gsy_github_app_flutter/model/Notification.dart' as Model;
@@ -21,6 +20,8 @@ import 'package:gsy_github_app_flutter/redux/locale_redux.dart';
 import 'package:gsy_github_app_flutter/redux/user_redux.dart';
 import 'package:gsy_github_app_flutter/common/utils/common_utils.dart';
 import 'package:redux/redux.dart';
+
+import '../ignoreConfig.dart';
 
 class UserDao {
 
